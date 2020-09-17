@@ -18,7 +18,6 @@ function snakeCase(str='') {
                 result += String.fromCharCode(code);
             }
         }
-        console.log(result);
         return result;
 }
 
