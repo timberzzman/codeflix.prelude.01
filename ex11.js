@@ -6,7 +6,6 @@ function last(str='', len=1) {
         }
         result += str[i];
     }
-    console.log(result);
     return result;
 }
 

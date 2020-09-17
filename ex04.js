@@ -26,7 +26,6 @@ function upperCase(str = '') {
 
 function capitalize(str='', restToLoweropt=false) {
     let result = '';
-    let code;
     result += upperCase(str[0]);
     if (!restToLoweropt) {
         for (i = 1; i < str.length; i++) {
