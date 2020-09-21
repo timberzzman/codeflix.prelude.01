@@ -1,13 +1,14 @@
 function insert(str='', toInsertopt='', positionopt = 0) {
     var result = '';
     for (var i = 0; i < str.length;i++) {
-        console.log(i, str[i]);
         if (i == positionopt) {
             result += toInsertopt
         }
             result += str[i];
     }
-    console.log(result);
+    if (positionopt >= str.length) {
+        result += toInsertopt;
+    }
     return result;
 }
 insert('chpper', '0', 2);
