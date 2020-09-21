@@ -6,7 +6,6 @@ function substr(str='', start, len=str.length) {
         result += str[i];
         subLen++;
     }
-    console.log(result);
     return result;
 }
 
